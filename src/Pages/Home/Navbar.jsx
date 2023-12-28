@@ -49,7 +49,7 @@ const Navbar = () => {
             </div>
             <div className='flex items-center'>
             <a className=" text-xl text-gray-800"><img src ="https://i.ibb.co/bb9XsFf/tasks.png" alt="" className='w-20 h-14'/></a>
-            <p className=" text-xl text-white">SCC Task Management</p>
+            <p className=" lg:text-xl text-lg text-white">SCC Task Management</p>
             </div>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -62,11 +62,11 @@ const Navbar = () => {
         <div className="navbar-end">
         {
         user? <>
-               <div className="flex items-center gap-6"> <span><img className="w-10 h-10 rounded-full" src={user.photoURL} alt="" /></span></div> 
-                <button onClick={handleLogOut} className="btn btn-warning font-bold">Log Out</button>
+               <div className="flex items-center ga--8 lg:gap-6"> <span><img className="w-10 h-10 rounded-full" src={user.photoURL} alt="" /></span></div> 
+                <button onClick={handleLogOut} className="btn lg:btn-warning btn-info font-normal lg:font-bold">Log Out</button>
               </> :
               <>
-                <p className='btn btn-warning font-bold'><NavLink to="/signin">Login</NavLink></p>
+                <p className='btn lg:btn-warning  btn-info font-normal  lg:font-bold'><NavLink to="/signin">Login</NavLink></p>
               </>
       
       }

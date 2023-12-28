@@ -7,7 +7,7 @@ const MyProfile = () => {
         <div >
             
                   <h2 className='text-3xl text-gray-600 py-14'>Profile</h2>
-                  <div className='w-[40rem] py-4 bg-slate-100 h-[20rem] px-8 py-text-center border border-blue-400 rounded-2xl'>
+                  <div className='lg:w-[40rem] w-[20rem] py-4 bg-slate-100 lg:h-[20rem] h-[20rem] lg:px-8 px-4 lg:py-text-center border border-blue-400 rounded-2xl'>
 
                     <div className='py-2'>
                         <div className='flex justify-center'><img className='w-44 h-54 rounded-full border' src={user.photoURL} alt="" /></div>

@@ -15,9 +15,9 @@ const Dashboard = () => {
         <>
 <div className='bg-slate-100'>
 <h2 className='text-4xl text-gray-500flex justify-center text-center py-8 border-b-2 px-20 border-gray-400 '>Dashboard</h2>
-<div className='bg-slate-100 flex justify-around '>
+<div className='bg-slate-100 lg:flex grid md:grid-cols-2 grid-cols-1 lg:justify-around py-4 '>
 
-<div className="w-64 min-h-screen block bg-white">
+<div className="lg:w-64 md:w-64 w-full  min-h-screen block bg-white">
   <ul className="space-y-8 pt-10">
        <li >
           
@@ -37,7 +37,7 @@ const Dashboard = () => {
         </li>
         </ul>
 </div>
-<div className="flex-1 px-8 bg-slate-100">
+<div className="flex-1 md:w-full px-8 bg-slate-100">
     <Outlet></Outlet>
 </div>
 </div>

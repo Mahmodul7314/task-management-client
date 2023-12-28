@@ -55,7 +55,7 @@ const Login = () => {
     return (
         <div>
              <div className="hero min-h-screen bg-base-200 ">
-        <div className="hero-content">
+        <div className="hero-content lg:flex-row md:flex-clol flex-col">
           <div className="text-center lg:w-1/2 md:w-1/2 lg:text-left py-12">
             <h1 className="text-5xl font-bold pl-10 pb-8">Login now!</h1>
             <img className="" src="https://cdn.ostad.app/images/homepage/illustrations/login.svg" alt="" />
